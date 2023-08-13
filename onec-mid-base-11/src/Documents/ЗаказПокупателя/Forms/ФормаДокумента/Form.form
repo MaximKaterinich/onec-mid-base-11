@@ -211,6 +211,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Объект.Макс_ПроцентСкидки</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>Макс_ПроцентСкидкиПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>Макс_ПроцентСкидкиРасширеннаяПодсказка</name>
             <id>171</id>
@@ -253,6 +257,10 @@
         <items xsi:type="form:Button">
           <name>Скидка</name>
           <id>174</id>
+          <title>
+            <key>ru</key>
+            <value>Пересчитать с учетом скидки</value>
+          </title>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -2062,6 +2070,11 @@
     <use>
       <common>true</common>
     </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>Скидка</name>
+      </handler>
+    </action>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <commandInterface>
