@@ -1136,6 +1136,7 @@
   <catalogs>Catalog.Файлы</catalogs>
   <catalogs>Catalog.Макс_КонтактныеЛица</catalogs>
   <catalogs>Catalog.Макс_Должность</catalogs>
+  <catalogs>Catalog.Производители</catalogs>
   <documents>Document.ЗаказПокупателя</documents>
   <documents>Document.ОплатаОтПокупателя</documents>
   <documents>Document.ОплатаПоставщику</documents>
